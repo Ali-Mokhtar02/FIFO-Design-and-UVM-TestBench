@@ -1,0 +1,16 @@
+shared_package_FIFO.sv
+seqitem_FIFO_pkg.sv
+sb_FIFO_pkg.sv
+coverage_FIFO_pkg.sv
+monitor_FIFO_pkg.sv
+resetsequence_FIFO_pkg.sv
+mainsequence_FIFO_pkg.sv
+driver_FIFO_pkg.sv
+sequencer_FIFO_pkg.sv
+config_FIFO_pkg.sv
+agent_FIFO_pkg.sv
+environment_FIFO_pkg.sv
+test_FIFO_pkg.sv
+interface_FIFO.sv
++define+enable_assertions -work work FIFO.sv +cover -covercells
+top_FIFO.sv
